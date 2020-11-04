@@ -11,7 +11,9 @@ class Program
         GenerateFakeContacts(addressBook);
 
         //Lägg in egna kontakter:
+        Console.Write("First name: ");
         string firstName = Console.ReadLine();
+        Console.Write("Last name: ");
         string lastName = Console.ReadLine();
         PrivateContact newContact = new PrivateContact();
         newContact.FirstName = firstName;
